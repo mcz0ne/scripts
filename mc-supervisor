@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source mc-settings.sh
+echo "Launching $INSTANCE_NAME..."
+exec $INVOCATION
